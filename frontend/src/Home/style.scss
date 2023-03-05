@@ -1,0 +1,11 @@
+.home{
+    border: 1px solid black;
+    width: 1200px;
+    margin: auto;
+    height: 550px;
+    &__firstChild{
+        border: 1px solid black;
+        width: 100%;
+        height: 91.666px;
+    }
+}
