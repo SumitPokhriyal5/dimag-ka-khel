@@ -1,6 +1,8 @@
+
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import {AiTwotoneHeart} from 'react-icons/ai'
 
 const Particle = () => {
     const particlesInit = async engine => {
@@ -70,7 +72,7 @@ const Particle = () => {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: 2,
                         straight: false,
                     },
                     number: {
@@ -83,8 +85,9 @@ const Particle = () => {
                     opacity: {
                         value: 0.5,
                     },
+                    // circle
                     shape: {
-                        type: "circle",
+                        type: "edge",
                     },
                     size: {
                         value: { min: 1, max: 5 },
